@@ -1,5 +1,5 @@
 (function(back) {
-  const SETTINGS_FILE = "daisy.json";
+  const SETTINGS_FILE = "alwaysclk.json";
 
   // initialize with default settings...
   let s = {'gy' : '#020',
@@ -26,7 +26,7 @@
   var gy_code = ['#020','#220','#022','#202','#200','#002'];
   
   E.showMenu({
-    '': { 'title': 'Daisy Clock' },
+    '': { 'title': 'Always Clock' },
     '< Back': back,
     'Colour': {
       value: 0 | color_options.indexOf(s.color),
