@@ -1,3 +1,4 @@
+// Const = {};
 if (window.location.host=="banglejs.com") {
   document.getElementById("apploaderlinks").innerHTML =
     'This is the official Bangle.js App Loader - you can also try the <a href="https://espruino.github.io/BangleApps/">Development Version</a> for the most recent apps.';
